@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+
+
+    <!-- Roboto @ Google Fonts -->
+    <!-- font-family: "Roboto", sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Poppins @ Google Fonts -->
+    <!-- font-family: 'Poppins', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Fredoka @ Google Fonts -->
+    <!-- font-family: 'Fredoka', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+
+    <!-- Ununtu @ Google Fonts -->
+    <!-- font-family: 'Ubuntu', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+
+    <title>Insights by atikle</title>
+    <link rel="icon" href="https://atikle.github.io/resource/icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="insights.css">
+    <link rel="stylesheet" href="https://atikle.github.io/resource/footer-1-multicolor/footer.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <header class="navigation-header">
+
+        <nav>
+
+            <div class="name"><a href="https://atikle.github.io/home">atikle.</a></div>
+
+            <div class="navigation-items" id="navigation-items">
+                <a class="links" href="https://atikle.github.io/finatikle">
+                    <font class="atikle"><font style="font-family: 'Ubuntu', sans-serif;">fin</font>atikle</font>
+                </a>
+                <a class="links" href="https://atikle.github.io/insights">
+                    <font style="font-family: 'Ubuntu', sans-serif;">Insights</font>
+                </a>
+            </div>
+
+            <div class="hamburger">
+                <span id="openHam">&#9776;</span>
+                <span id="closeHam">&#x2716;</span>
+            </div>
+
+        </nav>
+
+        <script>
+            let openHam = document.querySelector('#openHam');
+            let closeHam = document.querySelector('#closeHam');
+            let navigationItems = document.querySelector('#navigation-items');
+
+            const hamburgerEvent = (navigation, close, open) => {
+                navigationItems.style.display = navigation;
+                closeHam.style.display = close;
+                openHam.style.display = open;
+            };
+
+            openHam.addEventListener('click', () => hamburgerEvent("flex", "block", "none"));
+            closeHam.addEventListener('click', () => hamburgerEvent("none", "none", "block"));
+        </script>
+
+    </header>
+
+    <div class="div-1">
+
+        <font class="heading-1">
+            Insights by <font class="atikle">atikle</font>
+        </font>
+        <br>
+        <font class="heading-1">
+            Coming soon
+        </font>
+
+    </div>
+
+</body>
+
+</html>
