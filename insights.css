@@ -19,18 +19,7 @@ a {
     color: black;
 }
 
-::selection {
-    color: silver;
-    background: transparent;
-}
 
-
-
-.fixed-width-container {
-    width: 100%;
-    max-width: 1650px;
-    margin: auto;
-}
 
 .div-1 {
     /* margin-top: 66px; */
