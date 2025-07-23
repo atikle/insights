@@ -26,6 +26,12 @@ a {
 
 
 
+.fixed-width-container {
+    width: 100%;
+    max-width: 1650px;
+    margin: auto;
+}
+
 .div-1 {
     /* margin-top: 66px; */
     font-size: 20px;
