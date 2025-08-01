@@ -1,16 +1,15 @@
-body,
-html {
+body {
     width: 100%;
     height: 100%;
     margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    top: 0;
+    border: 0;
+    color: black;
     /* background: linear-gradient(0deg, black 0.1%, white 100%); */
     background: linear-gradient(0deg, black 0.1%, white 90%);
-    color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
-    border: 0;
-    top: 0;
 }
 
 a {
@@ -23,12 +22,13 @@ a {
 
 .div-1 {
     /* margin-top: 66px; */
-    font-size: 20px;
-    font-weight: 700;
-    padding: 43vh 3vw;
+     height: 100vh;
+    align-content: center;
+    padding: 0px 15px;
 }
 
 .heading-1 {
     font-size: 40px;
+    font-weight: 700;
     color: silver;
 }
